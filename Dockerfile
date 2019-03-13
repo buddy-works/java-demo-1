@@ -1,6 +1,6 @@
 FROM java:8
 WORKDIR /
-ADD app.jar app.jar
+ADD segfault-java.jar segfault-java.jar
 ADD lib/ lib/
 EXPOSE 8080
-CMD java -jar app.jar
+CMD java -jar segfault-java.jar
